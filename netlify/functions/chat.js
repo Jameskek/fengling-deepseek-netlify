@@ -306,10 +306,21 @@ Fengling TCM menggunakan proses integratif: konsultasi TCM dalam talian, pemerik
     }
 
     if (!response.ok) {
+      let availableModels = "";
+      try {
+        const modelsRes = await fetch("https://api.sea-lion.ai/v1/models", {
+          headers: { "Authorization": "Bearer " + apiKey }
+        });
+        const modelsJson = await modelsRes.json();
+        if (modelsJson && modelsJson.data) {
+          availableModels = " (当前 Key 可用模型: " + modelsJson.data.map(m => m.id).join(", ") + ")";
+        }
+      } catch(e) {}
+
       const errorMessage =
-        json && json.error && json.error.message
+        (json && json.error && json.error.message
           ? json.error.message
-          : "SeaLion API error";
+          : "SeaLion API error") + availableModels;
 
       return jsonResponse(response.status, {
         error: errorMessage,
