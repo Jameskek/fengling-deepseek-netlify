@@ -26,11 +26,11 @@ exports.handler = async function(event) {
     return jsonResponse(405, { error: "Method Not Allowed" });
   }
 
-  const apiKey = process.env.DEEPSEEK_API_KEY;
+  const apiKey = process.env.SEALION_API_KEY;
 
   if (!apiKey) {
     return jsonResponse(500, {
-      error: "Missing DEEPSEEK_API_KEY in Netlify environment variables."
+      error: "Missing SEALION_API_KEY in Netlify environment variables."
     });
   }
 
@@ -270,14 +270,14 @@ Fengling TCM menggunakan proses integratif: konsultasi TCM dalam talian, pemerik
 `;
 
   try {
-    const response = await fetch("https://api.deepseek.com/chat/completions", {
+    const response = await fetch("https://api.sea-lion.ai/v1/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         "Authorization": "Bearer " + apiKey
       },
       body: JSON.stringify({
-        model: "deepseek-v4-flash",
+        model: "sea-lion-7b-instruct",
         messages: [
           { role: "system", content: systemPrompt },
           ...safeConversation
@@ -293,7 +293,7 @@ Fengling TCM menggunakan proses integratif: konsultasi TCM dalam talian, pemerik
       json = await response.json();
     } catch (e) {
       return jsonResponse(response.status || 500, {
-        error: "Invalid response from DeepSeek API."
+        error: "Invalid response from SeaLion API."
       });
     }
 
@@ -301,7 +301,7 @@ Fengling TCM menggunakan proses integratif: konsultasi TCM dalam talian, pemerik
       const errorMessage =
         json && json.error && json.error.message
           ? json.error.message
-          : "DeepSeek API error";
+          : "SeaLion API error";
 
       return jsonResponse(response.status, {
         error: errorMessage,
