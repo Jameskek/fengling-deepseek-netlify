@@ -342,7 +342,7 @@ Fengling TCM menggunakan proses integratif: konsultasi TCM dalam talian, pemerik
       .trim();
 
     if (!reply) {
-      reply = "您好，这里是 Fengling TCM 风铃中医线上客服。您可以咨询预约流程、价格、线上问诊、辅助检查、报告上传或药材配送相关问题。";
+      reply = "【调试信息】大模型返回内容为空或格式异常，原始数据为：" + JSON.stringify(json);
     }
 
     return jsonResponse(200, { reply });
