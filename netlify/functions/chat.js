@@ -285,7 +285,7 @@ Fengling TCM menggunakan proses integratif: konsultasi TCM dalam talian, pemerik
         "Authorization": "Bearer " + apiKey
       },
       body: JSON.stringify({
-        model: "aisingapore/Qwen-SEA-LION-v4.5-27B-IT",
+        model: "aisingapore/Qwen-SEA-LION-v4-32B-IT",
         messages: [
           { role: "system", content: systemPrompt },
           ...safeConversation
