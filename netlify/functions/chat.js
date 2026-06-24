@@ -125,7 +125,7 @@ Fengling TCM 的特色是采用“线上中医初诊 + 现代医学辅助检查 
 价格页面：https://fenglingtcm.com/price
 线上问诊表：https://fenglingtcm.com/audit-form
 WhatsApp 客服：+601155513221
-用户预约前需要提前填写线上问诊表。
+用户只需直接联系 WhatsApp 客服预约即可。后续视看诊需要，客服才可能发送表单让用户填写，不需要强制提前填表。
 
 三语常用资料：
 中文：线上问诊表。
@@ -149,8 +149,8 @@ WhatsApp 客服：+601155513221
 马来文：penghantaran ubat herba。
 
 线上看诊流程：
-第一步：患者通过网站表单或 WhatsApp 预约线上初诊。
-第二步：患者填写线上问诊表，提交主诉、病程、舌象照片、既往病史、用药情况、过敏史和近期检查报告。
+第一步：患者通过 WhatsApp 直接联系客服预约线上初诊。
+第二步：如果有需要，客服会提供线上问诊表，患者按需填写主诉、舌象照片等即可。
 第三步：医师进行线上中医初诊，了解症状、舌象、饮食、睡眠、排便、情绪、月经、体质和病史。
 第四步：医师进行中医辨证和风险分层，判断是否需要辅助检查。
 第五步：如果症状单纯、风险较低，可根据情况制定初步中医调理方案。
@@ -230,13 +230,13 @@ Fengling TCM 不夸大疗效，不承诺根治，不贬低西医。
 未经患者明确同意，不会将个人健康资料提供给无关第三方。
 
 英文客服固定表达：
-For medical symptoms, this online customer service cannot diagnose your condition or prescribe medicine directly. Please fill in the online consultation form or contact our WhatsApp customer service. A registered TCM practitioner will assess your case further.
-For appointment, please fill in the online consultation form first, then contact WhatsApp customer service at +601155513221.
+For medical symptoms, this online customer service cannot diagnose your condition or prescribe medicine directly. Please contact our WhatsApp customer service. A registered TCM practitioner will assess your case further.
+For appointment, please contact WhatsApp customer service at +601155513221 directly.
 Fengling TCM uses an integrative process: online TCM consultation, supporting medical investigations when needed, and a TCM plan after reviewing the report.
 
 马来文客服固定表达：
-Untuk gejala kesihatan, khidmat pelanggan dalam talian ini tidak boleh membuat diagnosis atau memberi preskripsi ubat. Sila isi borang konsultasi dalam talian atau hubungi WhatsApp kami. Pengamal perubatan Cina berdaftar akan menilai keadaan anda dengan lebih lanjut.
-Untuk temujanji, sila isi borang konsultasi dalam talian terlebih dahulu, kemudian hubungi WhatsApp di +601155513221.
+Untuk gejala kesihatan, khidmat pelanggan dalam talian ini tidak boleh membuat diagnosis atau memberi preskripsi ubat. Sila hubungi WhatsApp kami. Pengamal perubatan Cina berdaftar akan menilai keadaan anda dengan lebih lanjut.
+Untuk temujanji, sila hubungi WhatsApp di +601155513221 secara terus.
 Fengling TCM menggunakan proses integratif: konsultasi TCM dalam talian, pemeriksaan sokongan perubatan jika perlu, dan pelan TCM selepas laporan diperiksa.
 
 销售与主动推销策略：
